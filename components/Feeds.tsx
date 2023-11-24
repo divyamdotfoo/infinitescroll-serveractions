@@ -5,7 +5,7 @@ import { fetchFeeds } from "@/serveractions/fetchFeeds";
 import { useEffect, useRef, useState } from "react";
 import { flushSync } from "react-dom";
 
-export function Feeds({
+export default function Feeds({
   initialPosts,
   initialCursor,
 }: {
